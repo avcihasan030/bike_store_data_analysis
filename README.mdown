@@ -1,0 +1,144 @@
+# SQL Data Analysis Project: Bike Store Sales and Operations Analysis
+
+## Project Overview
+
+This project focuses on analyzing the sales and operational data of a bike store using SQL. The goal is to derive actionable insights to improve business performance, identify trends, and optimize operations. The analysis covers key areas such as sales performance, customer behavior, staff efficiency, and inventory management.
+
+## Business Objectives
+
+- **Sales Analysis:** Identify top-selling products, seasonal trends, and store performance.
+- **Customer Insights:** Analyze customer lifetime value (CLV), churn rates, and high-value customers.
+- **Operational Efficiency:** Evaluate order fulfillment times and staff performance.
+- **A/B Testing:** Compare the impact of different discount strategies on revenue and order volume.
+
+## Dataset Description
+
+The dataset consists of the following tables:
+
+- **Customers:** Customer details (e.g., name, email, address).
+- **Orders:** Order details (e.g., order date, shipped date, store ID).
+- **Order Items:** Details of items in each order (e.g., product ID, quantity, price, discount).
+- **Products:** Product details (e.g., name, category, brand).
+- **Categories:** Product categories.
+- **Stores:** Store details (e.g., name, location).
+- **Staffs:** Employee details (e.g., name, email, store ID).
+
+## Methodology
+
+The analysis was conducted using SQL for data cleaning, transformation, and analysis. Key steps included:
+
+### Data Cleaning:
+
+- Handling missing values.
+- Standardizing data formats (e.g., phone numbers, addresses).
+- Removing duplicates and invalid records.
+
+### Data Analysis:
+
+- Aggregating sales data by product, category, and store.
+- Calculating customer lifetime value (CLV) and churn rates.
+- Evaluating staff performance and order fulfillment efficiency.
+
+### Advanced Techniques:
+
+- Moving averages for sales trends.
+- A/B testing for discount strategies.
+- RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
+
+## Key Insights
+
+### 1. Top-Selling Product Categories
+
+- **Top Category by Revenue:** [Insert top category name] generated the highest revenue.
+- **Top Category by Sales Volume:** [Insert top category name] had the highest number of orders.
+
+### 2. Customer Lifetime Value (CLV)
+
+- High-value customers (top 25%) contributed [X]% of total revenue.
+- Customers were segmented into quartiles based on their lifetime value.
+
+### 3. Order Fulfillment Efficiency
+
+- Average time to ship orders: [X] days.
+- [X]% of orders were shipped on time, while [Y]% were delayed.
+
+### 4. Staff Performance
+
+- **Top-performing staff member:** [Insert staff name] processed [X] orders and generated [Y] revenue.
+- Staff were ranked based on total sales and orders processed.
+
+### 5. Seasonal Sales Trends
+
+- Highest sales were recorded in [Month/Season], contributing [X]% of annual revenue.
+- Lowest sales were recorded in [Month/Season].
+
+### 6. A/B Testing Results
+
+- **Group A (10% Discount):** Generated [X] revenue from [Y] orders.
+- **Group B (20% Discount):** Generated [X] revenue from [Y] orders.
+- **Conclusion:** [Insert conclusion, e.g., "Higher discounts led to increased order volume but lower overall revenue."]
+
+### 7. Customer Churn Analysis
+
+- Churn rate: [X]% of customers have not made a purchase in the last 6 months.
+- High-value churned customers: [X] customers with a lifetime value of over [Y].
+
+## SQL Queries and Code
+
+The SQL code used for this analysis is organized into the following sections:
+
+### Data Cleaning and Preprocessing:
+
+- Standardized customer and product data.
+- Removed duplicates and invalid records.
+
+### Data Analysis:
+
+- Top-selling categories, customer segmentation, and staff performance.
+
+### Advanced Analysis:
+
+- Moving averages, A/B testing, and churn analysis.
+
+For detailed SQL queries, refer to the **SQL Scripts** folder in this repository.
+
+## Tools and Technologies
+
+- **Database:** MySQL
+- **Tools:** MySQL Workbench, GitHub (for version control)
+- **Visualization:** [Optional: Add tools like Tableau or Power BI if used]
+
+## How to Use This Repository
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/avcihasan030/bike_store_data_analysis.git
+```
+
+### Set up the database:
+
+- Import the provided SQL dump file into your MySQL server.
+
+### Run the SQL scripts:
+
+- Execute the scripts in the **SQL Scripts** folder to replicate the analysis.
+
+## Future Enhancements
+
+- **Dashboard Creation:** Build an interactive dashboard to visualize key metrics.
+- **Predictive Analysis:** Use machine learning to predict customer churn and sales trends.
+- **Inventory Optimization:** Analyze inventory turnover and optimize stock levels.
+
+## Conclusion
+
+This project demonstrates the power of SQL in deriving actionable business insights from raw data. By analyzing sales, customer behavior, and operational efficiency, the bike store can make data-driven decisions to improve performance and customer satisfaction.
+
+## Contact Information
+
+- **Name:** HASAN AVCI
+
+- **GitHub:** [https://github.com/avcihasan030](https://github.com/avcihasan030)
+
+- **Linke** [https://www.linkedin.com/in/hasan-avci-230a41215/](https://www.linkedin.com/in/hasan-avci-230a41215/)
+
